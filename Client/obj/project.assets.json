@@ -2091,11 +2091,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/LibApp2/InventoryHubWeb/InventoryHubWeb.csproj",
+      "projectUniqueName": "/Users/user/LibApp2/InventoryHub/Client/InventoryHubWeb.csproj",
       "projectName": "InventoryHubWeb",
-      "projectPath": "/Users/user/LibApp2/InventoryHubWeb/InventoryHubWeb.csproj",
+      "projectPath": "/Users/user/LibApp2/InventoryHub/Client/InventoryHubWeb.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/LibApp2/InventoryHubWeb/obj/",
+      "outputPath": "/Users/user/LibApp2/InventoryHub/Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"

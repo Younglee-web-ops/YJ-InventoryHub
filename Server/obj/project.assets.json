@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/LibApp2/UserApi/UserApi.csproj",
+      "projectUniqueName": "/Users/user/LibApp2/InventoryHub/Server/UserApi.csproj",
       "projectName": "UserApi",
-      "projectPath": "/Users/user/LibApp2/UserApi/UserApi.csproj",
+      "projectPath": "/Users/user/LibApp2/InventoryHub/Server/UserApi.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/LibApp2/UserApi/obj/",
+      "outputPath": "/Users/user/LibApp2/InventoryHub/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"

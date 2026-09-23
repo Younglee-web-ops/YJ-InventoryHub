@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mkD7H8yjrlk=",
+  "dgSpecHash": "FJTPpFoQmg0=",
   "success": true,
-  "projectFilePath": "/Users/user/LibApp2/InventoryHubWeb/InventoryHubWeb.csproj",
+  "projectFilePath": "/Users/user/LibApp2/InventoryHub/Client/InventoryHubWeb.csproj",
   "expectedPackageFiles": [
     "/Users/user/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.12/microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.aspnetcore.authorization/10.0.12/microsoft.aspnetcore.authorization.10.0.12.nupkg.sha512",

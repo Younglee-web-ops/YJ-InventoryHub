@@ -18,49 +18,49 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = InventoryHubWeb
 build_property.RootNamespace = InventoryHubWeb
-build_property.ProjectDir = /Users/user/LibApp2/InventoryHubWeb/
+build_property.ProjectDir = /Users/user/LibApp2/InventoryHub/Client/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/user/LibApp2/InventoryHubWeb
+build_property.MSBuildProjectDirectory = /Users/user/LibApp2/InventoryHub/Client
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/user/LibApp2/InventoryHubWeb/App.razor]
+[/Users/user/LibApp2/InventoryHub/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/user/LibApp2/InventoryHubWeb/Pages/Counter.razor]
+[/Users/user/LibApp2/InventoryHub/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/user/LibApp2/InventoryHubWeb/Pages/FetchProducts.razor]
+[/Users/user/LibApp2/InventoryHub/Client/Pages/FetchProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hQcm9kdWN0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/user/LibApp2/InventoryHubWeb/Pages/Home.razor]
+[/Users/user/LibApp2/InventoryHub/Client/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/user/LibApp2/InventoryHubWeb/Pages/NotFound.razor]
+[/Users/user/LibApp2/InventoryHub/Client/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90Rm91bmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/user/LibApp2/InventoryHubWeb/Pages/Weather.razor]
+[/Users/user/LibApp2/InventoryHub/Client/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/user/LibApp2/InventoryHubWeb/_Imports.razor]
+[/Users/user/LibApp2/InventoryHub/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/user/LibApp2/InventoryHubWeb/Layout/MainLayout.razor]
+[/Users/user/LibApp2/InventoryHub/Client/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-htf3rkwj9a
 
-[/Users/user/LibApp2/InventoryHubWeb/Layout/NavMenu.razor]
+[/Users/user/LibApp2/InventoryHub/Client/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-632frbg9aw

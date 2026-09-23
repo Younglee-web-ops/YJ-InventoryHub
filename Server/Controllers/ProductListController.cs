@@ -23,6 +23,8 @@ namespace UserApi.Controllers
         [HttpGet]
         public ActionResult<List<Product>> GetAll()
         {
+            // Copilot 제안: 서버 부하 감소를 위해 응답 캐싱 헤더 추가 (30초)
+            Response.Headers.Append("Cache-Control", "public, max-age=30");
             return Ok(products);
         }
     }

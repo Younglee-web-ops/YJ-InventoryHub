@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5nwTv5sT6A=",
+  "dgSpecHash": "8Rzzok7zPa8=",
   "success": true,
-  "projectFilePath": "/Users/user/LibApp2/UserApi/UserApi.csproj",
+  "projectFilePath": "/Users/user/LibApp2/InventoryHub/Server/UserApi.csproj",
   "expectedPackageFiles": [
     "/Users/user/.nuget/packages/microsoft.aspnetcore.openapi/10.0.12/microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.openapi/2.12.0/microsoft.openapi.2.12.0.nupkg.sha512"
