@@ -1,0 +1,69 @@
+using Microsoft.AspNetCore.Mvc;
+
+namespace UserApi.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class InventoryController : ControllerBase
+    {
+        private static List<InventoryItem> items = new List<InventoryItem>
+        {
+            new InventoryItem { Id = 1, Name = "노트북", Quantity = 10, Price = 1200000 },
+            new InventoryItem { Id = 2, Name = "마우스", Quantity = 50, Price = 25000 }
+        };
+
+        [HttpGet]
+        public ActionResult<List<InventoryItem>> GetAll()
+        {
+            try
+            {
+                Response.Headers.Append("Cache-Control", "public, max-age=30");
+                return Ok(items);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"서버 오류: {ex.Message}");
+            }
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<InventoryItem> GetById(int id)
+        {
+            var item = items.FirstOrDefault(i => i.Id == id);
+            if (item == null) return NotFound($"ID {id}에 해당하는 항목을 찾을 수 없습니다.");
+            return Ok(item);
+        }
+
+        [HttpPost]
+        public ActionResult<InventoryItem> Create(InventoryItem newItem)
+        {
+            if (string.IsNullOrWhiteSpace(newItem.Name) || newItem.Quantity < 0 || newItem.Price < 0)
+            {
+                return BadRequest("이름, 수량, 가격을 올바르게 입력해주세요.");
+            }
+            newItem.Id = items.Count > 0 ? items.Max(i => i.Id) + 1 : 1;
+            items.Add(newItem);
+            return CreatedAtAction(nameof(GetById), new { id = newItem.Id }, newItem);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, InventoryItem updatedItem)
+        {
+            var item = items.FirstOrDefault(i => i.Id == id);
+            if (item == null) return NotFound();
+            item.Name = updatedItem.Name;
+            item.Quantity = updatedItem.Quantity;
+            item.Price = updatedItem.Price;
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var item = items.FirstOrDefault(i => i.Id == id);
+            if (item == null) return NotFound();
+            items.Remove(item);
+            return NoContent();
+        }
+    }
+}
